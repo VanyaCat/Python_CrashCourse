@@ -12,3 +12,5 @@ last_name = "Lilavivat"
 full_name = f"{first_name} {last_name}"
 print(full_name, "\n")
 print(full_name.lower())
+
+# What other ways can we print a string?

@@ -14,4 +14,3 @@ print(full_name, "\n")
 print(full_name.lower())
 
 # What other ways can we print a string?
-print("this" + " " + "and" + " " + "that")

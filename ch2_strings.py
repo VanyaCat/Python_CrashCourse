@@ -14,3 +14,22 @@ print(full_name, "\n")
 print(full_name.lower())
 
 # What other ways can we print a string?
+
+#2-5 Famous Quote
+
+message = "Albert Einstein once said, \"A person who never made a mistake never tried anything new.\""
+print(message, "\n")
+
+#2-6
+
+famous_person = "Albert Einstein"
+new_message = f"{famous_person} once said, \"A person who never made a mistake never tried anything new.\""
+print(new_message, "\n")
+
+#2-7 Striping
+
+name_tab = "Seth\t"
+name_newline = "Seth\n"
+print(name_tab.strip(), name_tab, "\n")
+print(name_newline.strip(), name_newline)
+

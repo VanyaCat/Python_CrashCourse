@@ -21,3 +21,23 @@ print(first_name, last_name)
 print('{} {}'.format(first_name, last_name))
 print('{0} {1}'.format(first_name, last_name))
 
+# What other ways can we print a string?
+
+#2-5 Famous Quote
+
+message = "Albert Einstein once said, \"A person who never made a mistake never tried anything new.\""
+print(message, "\n")
+
+#2-6
+
+famous_person = "Albert Einstein"
+new_message = f"{famous_person} once said, \"A person who never made a mistake never tried anything new.\""
+print(new_message, "\n")
+
+#2-7 Striping
+
+name_tab = "Seth\t"
+name_newline = "Seth\n"
+print(name_tab.strip(), name_tab, "\n")
+print(name_newline.strip(), name_newline)
+

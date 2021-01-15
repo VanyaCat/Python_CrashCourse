@@ -6,11 +6,11 @@ guest_list = ['Jonfen', 'Momma', 'Sox']
 
 
 #why when I uncomment out lines 9 - 13 it doesn't work. It changes the list to a str
-#message = "you are invited to dinner!"
+message = "you are invited to dinner!"
 
 
-#for guest_list in guest_list:
-#    print("Hi", guest_list, message)
+for guest in guest_list:
+    print("Hi", guest, message)
 
 #3-5
 old_guest = 'Jonfen'

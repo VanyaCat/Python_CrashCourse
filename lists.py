@@ -30,8 +30,34 @@ guest_list.append(new_guest)
 print("The new guest list is: ", ', '.join(guest_list))
 
 #3-7
+print("The max number of guests is 2.")
 while len(guest_list) > 2:
     guest_list.pop()
-print("The new guest list is: ", ', '.join(guest_list))
+
+for guest in guest_list:
+    print("Hi", guest, message)
+
+del guest_list[0]
+del guest_list[0]
+
+print(len(guest_list))
 
 #3-8
+bucket_places = ['Prague', 'Amsterdam', 'Sedona', 'Tokyo', 'Marrakesh']
+print(bucket_places)
+
+print(sorted(bucket_places))
+print(bucket_places)
+print(sorted(bucket_places, reverse=True))
+
+bucket_places.reverse()
+print(bucket_places)
+
+bucket_places.reverse()
+print(bucket_places)
+
+bucket_places.sort()
+print(bucket_places)
+
+bucket_places.sort(reverse=True)
+print(bucket_places)

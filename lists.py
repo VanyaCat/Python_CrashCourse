@@ -38,6 +38,7 @@ for guest in guest_list:
     print("Hi", guest, message)
 
 del guest_list[0]
+
 del guest_list[0]
 
 print(len(guest_list))
@@ -61,3 +62,30 @@ print(bucket_places)
 
 bucket_places.sort(reverse=True)
 print(bucket_places)
+
+#3-9
+print("The number of bucket places is: ", len(bucket_places), "\n")
+
+#3-10
+
+fav_cars = ['Mazda MX-5', 'BMW Z4 M Coupe', 'Porsche Cayman GT-4', 'Mini Cooper S', 'Honda Civic Si']
+fav_cars.append('Ferrari 355')
+fav_cars.insert(3, 'Ariel Nomad')
+fav_cars.remove('Ferrari 355')
+fav_cars.pop()
+fav_cars.append('Honda Civic Si')
+print(sorted(fav_cars), "\n")
+
+#4-1
+fav_pizza = ['Margherita', 'Cheese', 'Sicilian']
+for pizza in fav_pizza:
+    print("I like", pizza, "pizza!")
+print("\n")
+
+
+#4-2
+animals = ['dog', 'cat', 'goat', 'pig']
+for animal in animals:
+    print(f"A {animal} would make a great pet!")
+
+print("All of these animals would make a great pet!")

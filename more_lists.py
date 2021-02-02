@@ -33,3 +33,20 @@ print(cube_list)
 #4-9 list comprehension
 cube_list = [i**3 for i in range(1,11)]
 print(cube_list)
+
+#4-10
+mtb_dest = ['St George', 'Moab', 'Sedona', 'Bend', 'Asheville']
+print("The first three items in the list are: ", mtb_dest[0:3])
+print("The first three items in the list are:", ', '.join(mtb_dest[0:3]), ".")
+print("The middle three items in the list are:", ', '.join(mtb_dest[1:4]), ".")
+print("The last three items in the list are:", ', '.join(mtb_dest[2:5]), ".")
+
+#4-11
+fav_pizza = ['Criscitos', 'Buena Forcetta', 'Bronx', 'Papalecco']
+friend_pizza = ['Pizza Port', 'Reagents', 'Tribute', 'Urban']
+
+for pizza in fav_pizza:
+    print(pizza)
+
+for pizza in friend_pizza:
+    print(pizza)

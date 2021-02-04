@@ -50,3 +50,8 @@ for pizza in fav_pizza:
 
 for pizza in friend_pizza:
     print(pizza)
+
+#4-13 Tuples
+basic_foods = ('starch', 'meat', 'vegetables', 'fruit', 'dessert')
+for food in basic_foods:
+    print(food)

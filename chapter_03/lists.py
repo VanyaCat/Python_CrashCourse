@@ -75,17 +75,3 @@ fav_cars.remove('Ferrari 355')
 fav_cars.pop()
 fav_cars.append('Honda Civic Si')
 print(sorted(fav_cars), "\n")
-
-#4-1
-fav_pizza = ['Margherita', 'Cheese', 'Sicilian']
-for pizza in fav_pizza:
-    print("I like", pizza, "pizza!")
-print("\n")
-
-
-#4-2
-animals = ['dog', 'cat', 'goat', 'pig']
-for animal in animals:
-    print(f"A {animal} would make a great pet!")
-
-print("All of these animals would make a great pet!")

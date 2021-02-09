@@ -1,3 +1,16 @@
+#4-1
+fav_pizza = ['Margherita', 'Cheese', 'Sicilian']
+for pizza in fav_pizza:
+    print("I like", pizza, "pizza!")
+print("\n")
+
+#4-2
+animals = ['dog', 'cat', 'goat', 'pig']
+for animal in animals:
+    print(f"A {animal} would make a great pet!")
+
+print("All of these animals would make a great pet!")
+
 #4-3 Counting to 20
 print(list(range(1,21)))
 
